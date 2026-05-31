@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-  origin: "https://chat-app-client-ashen.vercel.app/"
+  origin: "https://chat-app-client-ashen.vercel.app"
 }));
 
 app.use(express.json());
