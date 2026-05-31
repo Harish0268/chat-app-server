@@ -3,9 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors({
-  origin: "https://chat-app-client-harishrajkumar2003-7746s-projects.vercel.app"
-}));
+app.use(cors());
 
 app.use(express.json());
 
